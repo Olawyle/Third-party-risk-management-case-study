@@ -621,3 +621,112 @@ However, the final business criticality determination requires validation of:
 This provisional classification is intended to determine the appropriate depth of due diligence while the assessment remains in progress.
 
 > **Important:** Business criticality is not equivalent to inherent risk. A vendor may be highly critical to the business while having strong security controls that reduce its overall residual risk. The formal risk assessment will consider these factors separately.
+
+## 7. Assessment Summary & Information Gaps
+
+### 7.1 Assessment Summary
+
+The initial vendor assessment establishes that CloudServe Technologies Ltd. is a proposed SaaS provider that may support important customer-facing and operational processes within FinServe Financial Services Ltd.
+
+The service may involve:
+
+* Processing of customer and employee information
+* Significant business process dependency
+* Cloud-hosted data
+* Potential API and system integrations
+* Potential vendor administrative access
+* Dependence on subcontractors and cloud infrastructure providers
+* Potential regulatory and data protection considerations
+
+Based on the information currently available, CloudServe has been **provisionally classified as a High-Criticality Vendor**.
+
+The final inherent risk rating and TPRM tier will be determined during the formal risk assessment.
+
+---
+
+### 7.2 Information Gaps
+
+Several important areas require additional information before the vendor assessment can be finalized.
+
+| Information Area    | Information Required                          | Current Status | Assessment Impact                            |
+| ------------------- | --------------------------------------------- | -------------- | -------------------------------------------- |
+| Data classification | Exact data elements processed                 | Pending        | Determines data sensitivity                  |
+| Data volume         | Confirmed number of records                   | Pending        | Determines scale of exposure                 |
+| Data location       | Hosting and processing locations              | Pending        | Determines geographic/privacy considerations |
+| Privileged access   | Details of vendor administrative access       | Pending        | Determines access risk                       |
+| Integration         | Final integration architecture                | Pending        | Determines connectivity risk                 |
+| Authentication      | SSO/MFA capabilities                          | Pending        | Determines identity risk                     |
+| Fourth parties      | Material subprocessor list                    | Pending        | Determines supply-chain exposure             |
+| Security assurance  | SOC 2/ISO 27001 or equivalent evidence        | Pending        | Determines assurance level                   |
+| Business continuity | RTO/RPO and DR capabilities                   | Pending        | Determines availability risk                 |
+| Incident response   | Security incident notification process        | Pending        | Determines incident-management exposure      |
+| Data retention      | Retention and secure deletion requirements    | Pending        | Determines data lifecycle risk               |
+| Regulatory scope    | Applicable regulatory obligations             | Pending        | Determines compliance exposure               |
+| Exit strategy       | Data portability and termination arrangements | Pending        | Determines concentration/lock-in risk        |
+
+---
+
+### 7.3 Required Due Diligence
+
+The information gaps identified above will inform the scope of the vendor due diligence process.
+
+The assessment is expected to request evidence covering:
+
+1. Information security governance
+2. Security policies
+3. Independent security assurance
+4. Access control
+5. Privileged access management
+6. Encryption
+7. Vulnerability and patch management
+8. Security monitoring
+9. Incident response
+10. Business continuity and disaster recovery
+11. Data protection and privacy
+12. Subprocessor management
+13. Secure development practices
+14. Data retention and disposal
+15. Change management
+
+The final questionnaire will be risk-based and proportionate to the vendor's criticality and inherent risk.
+
+---
+
+### 7.4 Assessment Limitations
+
+The current assessment is based on the fictional business scenario and information established for this case study.
+
+No vendor-provided evidence has been reviewed at this stage.
+
+Accordingly:
+
+* Security control effectiveness has not yet been determined.
+* Vendor claims have not yet been independently validated.
+* No residual risk assessment has been performed.
+* No risk acceptance decision has been made.
+* No final vendor approval recommendation has been issued.
+
+These activities will be completed during subsequent stages of the TPRM lifecycle.
+
+---
+
+### 7.5 Session 1 Conclusion
+
+The initial vendor profile and business assessment provide sufficient context to proceed to the formal **Inherent Risk Assessment and Vendor Tiering** stage.
+
+The current assessment indicates that CloudServe should receive enhanced due diligence because of its:
+
+* Potential business criticality
+* Potential processing of sensitive information
+* Potential large-scale data exposure
+* Potential privileged/vendor access
+* Potential system integrations
+* Potential fourth-party dependencies
+
+The next stage will determine the vendor's inherent risk using a defined and repeatable risk-scoring methodology.
+
+**Assessment Status:** Ready for Inherent Risk Assessment
+
+**Current Vendor Classification:** High-Criticality — Provisional
+
+**Final Risk Rating:** Pending Session 2
