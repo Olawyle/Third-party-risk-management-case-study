@@ -56,3 +56,63 @@ The information gathered during this stage will be used as an input into the **I
 **Next Assessment Stage:** Inherent Risk Assessment & Vendor Tiering
 
 > **Note:** No final vendor risk rating or tier has been assigned at this stage. Risk classification will be determined using the documented assessment methodology in the next stage.
+
+## 2. Vendor Service Overview
+
+### 2.1 Service Description
+
+CloudServe Technologies Ltd. provides a cloud-based Customer Relationship Management (CRM) and workflow management platform delivered through a Software-as-a-Service (SaaS) model.
+
+FinServe Financial Services Ltd. is considering the platform to support customer management, operational workflows, service requests, and related business activities.
+
+The solution is hosted and maintained by CloudServe, with the vendor responsible for the availability, maintenance, underlying infrastructure, and security of the SaaS environment.
+
+### 2.2 Proposed Business Use
+
+FinServe intends to use CloudServe to support:
+
+* Customer relationship management
+* Customer service workflows
+* Internal operational processes
+* Case and service request management
+* Business workflow automation
+* Reporting and operational visibility
+
+### 2.3 Service Delivery Model
+
+| Attribute                     | Assessment                                        |
+| ----------------------------- | ------------------------------------------------- |
+| **Delivery Model**            | Software-as-a-Service (SaaS)                      |
+| **Hosting Responsibility**    | Vendor-managed                                    |
+| **Infrastructure Management** | Vendor-managed                                    |
+| **Application Management**    | Vendor-managed                                    |
+| **Customer Access**           | Web-based application                             |
+| **Integration**               | API-based integration may be required             |
+| **Availability Dependency**   | Dependent on vendor service availability          |
+| **Data Storage**              | Vendor-managed cloud environment                  |
+| **Support Model**             | Vendor-provided technical and application support |
+
+### 2.4 Business Dependency
+
+The proposed service may become an important component of FinServe's customer management and operational workflows.
+
+If the service becomes unavailable, FinServe may experience disruption to customer service activities, operational processes, and access to information maintained within the platform.
+
+The extent of this dependency will be assessed further during the **Business Criticality and Inherent Risk Assessment**.
+
+### 2.5 Key Risk Considerations
+
+The service model introduces several areas requiring further assessment:
+
+* Reliance on a third-party hosted environment
+* Vendor responsibility for application and infrastructure security
+* Potential processing of sensitive customer information
+* Potential API and system integrations
+* Vendor administrative access to the SaaS environment
+* Dependence on vendor availability and resilience
+* Potential use of subcontractors or cloud infrastructure providers
+* Potential cross-border data storage or processing
+
+These considerations will inform the subsequent due diligence and inherent risk assessment.
+
+> **Assessment Note:** The information documented in this section represents the current understanding of the proposed service. Specific technical, data, access, hosting, and subcontractor details will be validated through vendor due diligence and supporting evidence.
