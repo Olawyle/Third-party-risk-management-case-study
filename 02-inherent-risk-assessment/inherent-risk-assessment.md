@@ -132,3 +132,76 @@ The following information should be obtained:
 
 **Score:** 5 / 5
 
+## 4. Risk Dimension 3 — Business Criticality
+
+### 4.1 Assessment Question
+
+**How significant would the business impact be if CloudServe's services became unavailable or materially degraded?**
+
+### 4.2 Relevant Information
+
+The Session 1 assessment established that CloudServe is proposed to support:
+
+* Customer relationship management
+* Customer service workflows
+* Operational workflow processing
+* Case and service request management
+* Internal reporting
+* Business process coordination
+
+The vendor may therefore become an important dependency for both customer-facing and internal operational activities.
+
+### 4.3 Business Impact Considerations
+
+A prolonged CloudServe outage could result in:
+
+* Disruption to customer service activities
+* Delays in operational workflows
+* Increased manual processing
+* Reduced employee productivity
+* Potential customer dissatisfaction
+* Potential financial impact
+* Potential regulatory or compliance implications
+* Reputational impact
+
+The severity of the actual impact will depend on the organization's recovery requirements, available alternatives, and the extent to which CloudServe becomes embedded within critical processes.
+
+### 4.4 Assigned Score
+
+**Business Criticality Score: 4 / 5 — High**
+
+### 4.5 Rationale
+
+A score of **4** is assigned because CloudServe is expected to support important customer-facing and operational processes.
+
+A prolonged disruption could materially affect FinServe's ability to perform these activities and could create operational, customer, financial, regulatory, and reputational consequences.
+
+A score of **5 — Critical** has not been assigned because the assessment has not yet established that CloudServe supports mission-critical processes for which no viable alternative or workaround exists.
+
+The final score should be validated against:
+
+* Maximum Tolerable Downtime (MTD)
+* Recovery Time Objective (RTO)
+* Recovery Point Objective (RPO)
+* Service Level Agreement (SLA)
+* Availability of alternative systems
+* Manual workaround capabilities
+* Business continuity arrangements
+
+### 4.6 Evidence Required for Validation
+
+The following information should be obtained:
+
+* Business Impact Analysis (BIA)
+* Business owner's criticality assessment
+* Contractual SLA
+* RTO and RPO requirements
+* Maximum Tolerable Downtime
+* Business continuity documentation
+* Disaster recovery commitments
+* Alternative service/workaround assessment
+* Vendor availability and uptime history
+
+**Assessment Status:** Provisionally Assessed
+
+**Score:** 4 / 5
