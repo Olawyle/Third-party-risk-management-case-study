@@ -286,3 +286,87 @@ The following evidence should be requested or reviewed:
 **Assessment Status:** Provisionally Assessed
 
 **Score:** 4 / 5
+
+## 6. Risk Dimension 5 — Fourth-Party Dependency
+
+### 6.1 Assessment Question
+
+**To what extent does CloudServe depend on subcontractors, cloud infrastructure providers, or other external service providers to deliver the service to FinServe?**
+
+### 6.2 Relevant Information
+
+CloudServe operates as a Software-as-a-Service provider and may rely on external providers to support areas such as:
+
+* Cloud infrastructure
+* Data storage
+* Backup and disaster recovery
+* Security monitoring
+* Customer support
+* Identity and authentication
+* Software development
+* Other technology services
+
+The complete list of material subcontractors and fourth parties has not yet been validated.
+
+### 6.3 Fourth-Party Risk Considerations
+
+A significant dependency on external providers may introduce additional risks, including:
+
+* Security weaknesses within a subcontractor
+* Cloud infrastructure outages
+* Unauthorized access to FinServe information
+* Fourth-party data breaches
+* Cross-border data processing
+* Concentration risk
+* Inadequate contractual protections
+* Delayed incident notification
+* Dependency on a single critical service provider
+
+The impact of these risks depends on the criticality of the fourth party and the level of control and oversight maintained by CloudServe.
+
+### 6.4 Assigned Score
+
+**Fourth-Party Dependency Score: 4 / 5 — High**
+
+### 6.5 Rationale
+
+A score of **4** is assigned because CloudServe's SaaS delivery model is expected to involve material dependencies on external infrastructure and service providers.
+
+A significant failure or security incident involving a critical fourth party could affect CloudServe's availability, confidentiality, integrity, or ability to deliver services to FinServe.
+
+A score of **5 — Critical** has not been assigned because the current assessment has not established that CloudServe has a highly concentrated dependency on a single fourth party or that its critical subcontractors have unrestricted access to FinServe information.
+
+The score should be reassessed once CloudServe provides its current material subprocessor inventory and supporting assurance information.
+
+### 6.6 Key Validation Questions
+
+The following questions should be addressed during due diligence:
+
+1. Which cloud infrastructure providers does CloudServe use?
+2. Where are FinServe's data and backups hosted?
+3. Which subcontractors can access FinServe information?
+4. Which fourth parties are considered critical to service delivery?
+5. Does CloudServe perform risk assessments before engaging material subcontractors?
+6. What security requirements are imposed contractually on fourth parties?
+7. How does CloudServe monitor fourth-party security?
+8. How is FinServe notified of material subcontractor changes?
+9. Are critical fourth parties included in business continuity and disaster recovery planning?
+10. Does CloudServe have contingency arrangements for the failure of a critical fourth party?
+
+### 6.7 Evidence Required for Validation
+
+The following evidence should be requested:
+
+* Current subprocessor/subcontractor list
+* Fourth-party risk management procedure
+* Material subcontractor risk assessments
+* Cloud provider assurance reports
+* Relevant SOC 2 or ISO 27001 reports
+* Data-processing agreements
+* Contractual security requirements
+* Fourth-party business continuity arrangements
+* Material change-notification process
+
+**Assessment Status:** Provisionally Assessed
+
+**Score:** 4 / 5
