@@ -205,3 +205,84 @@ The following information should be obtained:
 **Assessment Status:** Provisionally Assessed
 
 **Score:** 4 / 5
+
+## 5. Risk Dimension 4 — Access & Integration
+
+### 5.1 Assessment Question
+
+**What level of access, system integration, connectivity, or administrative privilege may CloudServe have within FinServe's environment?**
+
+### 5.2 Relevant Information
+
+The proposed CloudServe deployment may involve:
+
+* Authenticated user access
+* API-based system integration
+* Vendor technical/support access
+* Administrative access to the SaaS environment
+* Exchange of information between CloudServe and FinServe systems
+
+The exact architecture and access model have not yet been validated.
+
+### 5.3 Access Risk Considerations
+
+Third-party access may introduce risks including:
+
+* Compromise of vendor credentials
+* Excessive user privileges
+* Unauthorized administrative activity
+* Insecure API integrations
+* Compromised integration credentials or tokens
+* Uncontrolled remote support access
+* Insufficient monitoring of vendor activity
+* Unauthorized access to FinServe information
+
+The potential impact increases where a vendor can access sensitive information or interact with systems supporting important business processes.
+
+### 5.4 Assigned Score
+
+**Access & Integration Score: 4 / 5 — High**
+
+### 5.5 Rationale
+
+A score of **4** is assigned because the proposed relationship may involve API-based integration, vendor support access, and administrative access associated with the SaaS environment.
+
+These characteristics create a significant third-party attack surface and could increase the impact of a compromise involving CloudServe accounts, credentials, integration mechanisms, or privileged personnel.
+
+A score of **5 — Critical** has not been assigned because the current assessment does not establish that CloudServe will have direct privileged access to FinServe's most critical production systems or unrestricted network connectivity.
+
+The final score should be validated against the approved technical architecture and access model.
+
+### 5.6 Key Validation Questions
+
+The following questions should be answered before finalizing the risk assessment:
+
+1. Will CloudServe personnel have access to FinServe data?
+2. Will CloudServe personnel have privileged administrative access?
+3. Will the platform integrate directly with FinServe production systems?
+4. What authentication mechanism will be used?
+5. Will Single Sign-On (SSO) and Multi-Factor Authentication (MFA) be mandatory?
+6. How will API credentials and secrets be managed?
+7. Will network connectivity be required?
+8. Will remote vendor support access be permitted?
+9. How will privileged activity be logged and monitored?
+10. How quickly can vendor access be revoked?
+
+### 5.7 Evidence Required for Validation
+
+The following evidence should be requested or reviewed:
+
+* High-level architecture diagram
+* Data-flow diagram
+* Access control model
+* Privileged access management procedures
+* SSO/MFA documentation
+* API security documentation
+* Network connectivity requirements
+* Vendor support access procedure
+* Logging and monitoring documentation
+* Access review procedures
+
+**Assessment Status:** Provisionally Assessed
+
+**Score:** 4 / 5
