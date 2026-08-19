@@ -370,3 +370,112 @@ The following evidence should be requested:
 **Assessment Status:** Provisionally Assessed
 
 **Score:** 4 / 5
+
+## 7. Overall Inherent Risk Calculation
+
+### 7.1 Risk Score Summary
+
+| Risk Dimension          |  Score | Rating   |
+| ----------------------- | -----: | -------- |
+| Data Sensitivity        |      4 | High     |
+| Data Volume             |      5 | Critical |
+| Business Criticality    |      4 | High     |
+| Access & Integration    |      4 | High     |
+| Fourth-Party Dependency |      4 | High     |
+| **Total**               | **21** | —        |
+
+### 7.2 Calculation
+
+The methodology established that the overall inherent risk score is calculated using the arithmetic mean of the five risk dimensions.
+
+**Inherent Risk Score = (Data Sensitivity + Data Volume + Business Criticality + Access & Integration + Fourth-Party Dependency) ÷ 5**
+
+**Inherent Risk Score = (4 + 5 + 4 + 4 + 4) ÷ 5**
+
+**Inherent Risk Score = 21 ÷ 5**
+
+**Inherent Risk Score = 4.20**
+
+### 7.3 Overall Inherent Risk Rating
+
+Based on the approved scoring methodology:
+
+|     Score Range | Risk Rating  |
+| --------------: | ------------ |
+|     1.00 – 1.79 | Low          |
+|     1.80 – 2.59 | Low-Moderate |
+|     2.60 – 3.39 | Moderate     |
+|     3.40 – 4.19 | High         |
+| **4.20 – 5.00** | **Critical** |
+
+**Overall Inherent Risk Score: 4.20 / 5.00**
+
+**Overall Inherent Risk Rating: CRITICAL**
+
+### 7.4 Risk Interpretation
+
+The assessment indicates that the proposed CloudServe relationship presents a **Critical inherent risk profile before considering the effectiveness of mitigating controls**.
+
+The primary drivers are:
+
+* Potential processing of sensitive customer and business information
+* Potential exposure involving approximately 500,000 records
+* Significant business dependency
+* Potential API and administrative/vendor access
+* Dependence on external infrastructure and subcontractors
+
+The Critical rating reflects the exposure associated with the nature of the proposed vendor relationship. It does **not** indicate that CloudServe's security controls are ineffective.
+
+Control effectiveness will be evaluated separately during the **Evidence & Control Assessment** stage.
+
+### 7.5 Risk Classification Decision
+
+**Final Inherent Risk Rating: CRITICAL**
+
+**Inherent Risk Score: 4.20 / 5.00**
+
+**Assessment Basis:** Five-dimensional risk scoring methodology defined in Version 1.0.
+
+**Control Effectiveness Considered:** No
+
+**Residual Risk Considered:** No
+
+### 7.6 Due Diligence Implication
+
+Given the Critical inherent risk classification, CloudServe should be subject to **enhanced third-party due diligence** before the relationship is approved.
+
+The assessment should require, at minimum:
+
+* Detailed security questionnaire
+* Independent security assurance evidence
+* Review of relevant SOC 2 Type II or ISO 27001 evidence where available
+* Penetration testing assurance
+* Access control assessment
+* Data protection and privacy assessment
+* Business continuity and disaster recovery assessment
+* Incident response assessment
+* Fourth-party/subprocessor assessment
+* Contractual security requirements
+* Ongoing monitoring requirements
+
+The final due diligence scope should remain risk-based and proportionate to the actual services, data, access, and regulatory exposure confirmed during validation.
+
+### 7.7 Important Risk Distinction
+
+The Critical inherent risk rating should not be interpreted as a final determination that the vendor is unacceptable.
+
+The TPRM lifecycle will continue through:
+
+**Inherent Risk → Due Diligence → Control Assessment → Risk Treatment → Residual Risk → Risk Decision**
+
+A vendor with Critical inherent risk may ultimately have an acceptable residual risk if appropriate controls are demonstrated and validated.
+
+### 7.8 Assessment Status
+
+**Inherent Risk Assessment:** Complete
+
+**Overall Score:** 4.20 / 5.00
+
+**Overall Rating:** Critical
+
+**Next Stage:** Vendor Tiering & Due Diligence Requirements
