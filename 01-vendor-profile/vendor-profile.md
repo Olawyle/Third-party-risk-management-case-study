@@ -378,3 +378,130 @@ The following evidence should be requested or reviewed during subsequent assessm
 | Access review procedures        | Validate periodic access governance              |
 
 > **Assessment Note:** No conclusion regarding the adequacy of CloudServe's access controls has been made at this stage. The purpose of this assessment is to identify the access and connectivity characteristics that require validation during due diligence and control assessment.
+
+## 5. Fourth-Party and Subcontractor Assessment
+
+### 5.1 Fourth-Party Risk Overview
+
+CloudServe Technologies Ltd. may rely on external service providers, cloud infrastructure providers, software providers, and other subcontractors to deliver and support its SaaS platform.
+
+These organizations represent potential **fourth-party dependencies** within FinServe's supply chain and may introduce additional security, operational, privacy, availability, and compliance risks.
+
+The full fourth-party ecosystem has not yet been independently validated and will be assessed as part of vendor due diligence.
+
+### 5.2 Potential Fourth-Party Categories
+
+The assessment will consider whether CloudServe uses third parties in areas such as:
+
+* Cloud infrastructure hosting
+* Data storage and backup
+* Content delivery
+* Identity and authentication services
+* Customer support
+* Security monitoring
+* Email and notification services
+* Payment or transaction processing
+* Data analytics
+* Software development
+* Managed security services
+* Disaster recovery and business continuity
+
+### 5.3 Fourth-Party Dependency Assessment
+
+The following information should be obtained from CloudServe:
+
+| Assessment Area       | Information Required                                     | Status  |
+| --------------------- | -------------------------------------------------------- | ------- |
+| Subcontractor list    | Current list of material subprocessors/subcontractors    | Pending |
+| Service provided      | Description of each subcontracted service                | Pending |
+| Data access           | Whether the fourth party can access FinServe information | Pending |
+| Data location         | Geographic location of processing/storage                | Pending |
+| Criticality           | Impact of fourth-party failure on CloudServe service     | Pending |
+| Security assurance    | SOC 2, ISO 27001 or equivalent evidence                  | Pending |
+| Contractual controls  | Security and confidentiality requirements                | Pending |
+| Incident notification | Fourth-party incident notification requirements          | Pending |
+| Business continuity   | Recovery arrangements for critical subcontractors        | Pending |
+| Change notification   | Process for notifying FinServe of material changes       | Pending |
+
+### 5.4 Cloud Infrastructure Dependency
+
+Because CloudServe operates as a SaaS provider, the underlying cloud infrastructure may represent a significant dependency.
+
+The assessment should establish:
+
+* Cloud infrastructure provider(s)
+* Hosting regions
+* Primary and backup environments
+* Data residency arrangements
+* Availability architecture
+* Disaster recovery arrangements
+* Security responsibilities between CloudServe and its cloud provider
+* Cloud provider assurance reports
+* Material subcontractor dependencies
+
+**Current Status:** To be validated.
+
+### 5.5 Fourth-Party Data Access
+
+Where fourth parties have access to FinServe information, CloudServe should demonstrate that appropriate controls are in place to manage that access.
+
+The assessment should consider:
+
+* Least-privilege access
+* Encryption
+* Authentication and MFA
+* Data segregation
+* Logging and monitoring
+* Personnel security
+* Confidentiality obligations
+* Data retention and deletion
+* Incident notification
+* Periodic security assessment
+
+### 5.6 Fourth-Party Governance
+
+CloudServe should demonstrate that it maintains an effective process for identifying, assessing, approving, and monitoring material fourth parties.
+
+The assessment should determine whether CloudServe:
+
+1. Maintains a current inventory of material subcontractors.
+2. Performs risk assessments before engaging critical subcontractors.
+3. Establishes contractual security requirements.
+4. Reviews security assurance evidence.
+5. Monitors material fourth-party risks.
+6. Requires notification of material subcontractor changes.
+7. Maintains appropriate incident escalation processes.
+8. Includes critical fourth parties in business continuity planning.
+
+### 5.7 Fourth-Party Risk Considerations
+
+Potential risks include:
+
+* Unknown or undisclosed subcontractors
+* Unauthorized access to FinServe information
+* Weak security controls within a fourth party
+* Cloud infrastructure outages
+* Fourth-party data breaches
+* Cross-border data processing
+* Inadequate contractual protections
+* Delayed incident notification
+* Concentration risk
+* Dependency on a single critical service provider
+
+These risks will be considered during the **Inherent Risk Assessment** and **Due Diligence** stages.
+
+### 5.8 Required Evidence
+
+The following evidence should be requested during the due diligence stage:
+
+* Current subprocessor/subcontractor list
+* Fourth-party risk management policy or procedure
+* Material subcontractor assessment methodology
+* Relevant SOC 2 or ISO 27001 reports
+* Cloud provider assurance documentation
+* Data-processing agreements
+* Contractual security requirements
+* Business continuity and disaster recovery documentation
+* Material subcontractor change-notification process
+
+> **Assessment Note:** The presence of fourth-party dependencies does not automatically result in a high-risk classification. Risk will depend on the criticality of the dependency, the nature of information accessed, the level of control exercised by CloudServe, and the effectiveness of the associated security and contractual controls.
