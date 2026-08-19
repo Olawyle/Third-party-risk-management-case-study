@@ -505,3 +505,119 @@ The following evidence should be requested during the due diligence stage:
 * Material subcontractor change-notification process
 
 > **Assessment Note:** The presence of fourth-party dependencies does not automatically result in a high-risk classification. Risk will depend on the criticality of the dependency, the nature of information accessed, the level of control exercised by CloudServe, and the effectiveness of the associated security and contractual controls.
+
+## 6. Business Criticality Assessment
+
+### 6.1 Purpose
+
+The purpose of this assessment is to determine the potential business impact if CloudServe Technologies Ltd. becomes unavailable, experiences a significant security incident, or fails to deliver the contracted service.
+
+Business criticality is assessed independently from the final inherent risk rating. The results will be used as an input into the formal risk assessment and vendor tiering process in Session 2.
+
+### 6.2 Business Process Dependency
+
+CloudServe is proposed to support customer relationship management, service workflows, and operational activities within FinServe.
+
+The potential business processes affected by a CloudServe outage include:
+
+* Customer service activities
+* Customer information management
+* Operational workflow processing
+* Case and service request management
+* Internal reporting
+* Business process coordination
+
+The level of dependency will increase if CloudServe becomes embedded into multiple critical business processes or if alternative systems are unavailable.
+
+### 6.3 Service Availability Impact
+
+A prolonged CloudServe outage could affect FinServe's ability to perform customer-facing and operational activities.
+
+Potential impacts include:
+
+| Impact Area       | Potential Impact                                      | Current Assessment |
+| ----------------- | ----------------------------------------------------- | ------------------ |
+| Customer Service  | Disruption to customer-facing activities              | Moderate to High   |
+| Operations        | Delays in workflow processing                         | Moderate to High   |
+| Productivity      | Increased manual processing                           | Moderate           |
+| Financial         | Potential operational and financial losses            | To be assessed     |
+| Regulatory        | Potential compliance implications                     | To be assessed     |
+| Reputation        | Potential customer dissatisfaction                    | To be assessed     |
+| Data Availability | Temporary loss of access to vendor-hosted information | To be assessed     |
+
+### 6.4 Availability Tolerance
+
+FinServe should establish the maximum acceptable period for which CloudServe can be unavailable before the impact becomes unacceptable.
+
+The following business continuity requirements require confirmation:
+
+* Recovery Time Objective (RTO)
+* Recovery Point Objective (RPO)
+* Maximum Tolerable Downtime (MTD)
+* Availability Service Level Agreement (SLA)
+* Disaster recovery requirements
+* Business continuity arrangements
+* Manual workaround capability
+
+**Current Status:** Pending validation with the business owner.
+
+### 6.5 Substitutability
+
+The availability of alternative solutions is an important factor in determining business criticality.
+
+The assessment should establish:
+
+* Whether an alternative platform currently exists
+* Whether FinServe can operate manually during an outage
+* Time required to transition to an alternative provider
+* Availability of backup processes
+* Portability of FinServe data
+* Vendor lock-in considerations
+* Exit and transition arrangements
+
+**Current Assessment:** Alternative arrangements have not yet been validated.
+
+### 6.6 Regulatory and Compliance Dependency
+
+Because FinServe operates within the financial services sector, disruption or compromise of a critical technology service may have regulatory and compliance implications.
+
+The assessment should determine whether CloudServe supports processes subject to:
+
+* Financial-sector regulatory requirements
+* Data protection obligations
+* Record retention requirements
+* Customer protection requirements
+* Business continuity requirements
+* Third-party outsourcing requirements
+
+Specific regulatory obligations will be validated based on the actual business process and jurisdiction involved.
+
+### 6.7 Business Criticality Rating
+
+Based on the information currently available, CloudServe is provisionally assessed as:
+
+**Business Criticality: HIGH — PROVISIONAL**
+
+### Rationale
+
+CloudServe is proposed to support customer-facing and operational workflows and may process significant volumes of customer and employee information.
+
+A prolonged outage could disrupt customer service and operational activities, while a significant security incident could create operational, financial, regulatory, and reputational consequences.
+
+However, the final business criticality determination requires validation of:
+
+* Actual business process dependency
+* Availability requirements
+* Recovery objectives
+* Alternative solutions
+* Data dependency
+* Regulatory impact
+* Contractual service commitments
+
+### 6.8 Criticality Decision
+
+**Current Decision:** Provisionally classify CloudServe as a **High-Criticality Vendor**, subject to validation during the formal Inherent Risk Assessment.
+
+This provisional classification is intended to determine the appropriate depth of due diligence while the assessment remains in progress.
+
+> **Important:** Business criticality is not equivalent to inherent risk. A vendor may be highly critical to the business while having strong security controls that reduce its overall residual risk. The formal risk assessment will consider these factors separately.
