@@ -72,3 +72,63 @@ The following information should be obtained during due diligence:
 **Assessment Status:** Provisionally Assessed
 
 **Score:** 4 / 5
+
+## 3. Risk Dimension 2 — Data Volume
+
+### 3.1 Assessment Question
+
+**What is the scale of information that CloudServe may process or store on behalf of FinServe?**
+
+### 3.2 Relevant Information
+
+The business scenario established during Session 1 indicates that CloudServe may process information relating to approximately:
+
+**500,000 customer and employee records**
+
+This figure represents the current estimated population associated with the proposed service and remains subject to validation.
+
+### 3.3 Risk Considerations
+
+The volume of information is an important component of third-party risk because a compromise affecting a large population can increase the potential scale of:
+
+* Unauthorized disclosure
+* Privacy impact
+* Regulatory exposure
+* Customer impact
+* Financial loss
+* Incident response requirements
+* Reputational damage
+
+The concentration of a large volume of records within a single third-party platform also increases the potential impact of a significant security incident.
+
+### 3.4 Assigned Score
+
+**Data Volume Score: 5 / 5 — Critical**
+
+### 3.5 Rationale
+
+A score of **5** is assigned because the proposed service may process approximately **500,000 customer and employee records**, representing a significant concentration of organizational and personal information.
+
+A compromise affecting the platform could therefore affect a substantial number of individuals simultaneously.
+
+The volume also increases the potential scale of regulatory, operational, financial, and reputational consequences following a material security incident.
+
+The score is based on the current scenario estimate and should be validated against the actual number of records expected to be processed during the vendor onboarding process.
+
+### 3.6 Evidence Required for Validation
+
+The following information should be obtained:
+
+* Estimated number of records processed
+* Expected data growth over the contract period
+* Data inventory
+* Record categories and volumes
+* Data retention periods
+* Backup volumes
+* Data deletion procedures
+* Contractual limitations on data processing
+
+**Assessment Status:** Provisionally Assessed
+
+**Score:** 5 / 5
+
