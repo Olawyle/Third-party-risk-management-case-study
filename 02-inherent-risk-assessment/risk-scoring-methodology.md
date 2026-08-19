@@ -217,3 +217,4 @@ The risk-scoring methodology should be reviewed periodically to ensure that:
 **Version:** 1.0
 
 **Assessment Stage:** Session 2 — Inherent Risk Assessment & Vendor Tiering
+
