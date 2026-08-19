@@ -116,3 +116,112 @@ The service model introduces several areas requiring further assessment:
 These considerations will inform the subsequent due diligence and inherent risk assessment.
 
 > **Assessment Note:** The information documented in this section represents the current understanding of the proposed service. Specific technical, data, access, hosting, and subcontractor details will be validated through vendor due diligence and supporting evidence.
+
+## 3. Data & Information Assessment
+
+### 3.1 Data Processing Overview
+
+The proposed CloudServe service may process information relating to FinServe's customers, employees, and business operations.
+
+At this stage of the assessment, the exact categories and volume of information have not yet been independently validated. The following assessment therefore represents the current understanding of the proposed service and identifies information that must be confirmed during vendor due diligence.
+
+### 3.2 Potential Data Categories
+
+| Data Category                              | Potentially Processed | Validation Status |
+| ------------------------------------------ | --------------------: | ----------------- |
+| Customer identification information        |                   Yes | To be validated   |
+| Contact information                        |                   Yes | To be validated   |
+| Customer service records                   |                   Yes | To be validated   |
+| Account or transaction-related information |           Potentially | To be validated   |
+| Employee/user information                  |                   Yes | To be validated   |
+| Authentication information                 |           Potentially | To be validated   |
+| Business operational information           |                   Yes | To be validated   |
+| Financial information                      |           Potentially | To be validated   |
+| Special-category/sensitive personal data   |           Potentially | To be validated   |
+
+### 3.3 Data Classification
+
+Based on the proposed business use, the information processed by CloudServe may include **confidential and sensitive business or customer information**.
+
+The final data classification will be determined after FinServe confirms:
+
+* Exact data elements processed
+* Data classification requirements
+* Whether financial information is processed
+* Whether sensitive or special-category personal information is processed
+* Whether authentication credentials or security information are processed
+
+**Current Classification:** Provisional — Pending Validation
+
+### 3.4 Estimated Data Volume
+
+The current business scenario indicates that the platform may process information relating to approximately **500,000 customer and employee records**.
+
+This figure will be treated as an assessment input and should be validated with the business owner and vendor during due diligence.
+
+**Estimated Records:** Approximately 500,000
+
+**Validation Status:** Pending confirmation
+
+### 3.5 Data Storage and Processing Location
+
+Because CloudServe operates as a SaaS provider, FinServe requires information regarding:
+
+* Primary data hosting locations
+* Backup and disaster recovery locations
+* Geographic regions where data may be processed
+* Cross-border data transfers
+* Data residency arrangements
+* Subprocessor access to FinServe information
+
+**Current Status:** Hosting and processing locations have not yet been independently validated.
+
+### 3.6 Data Retention and Disposal
+
+The vendor's data retention and disposal practices require further assessment.
+
+The due diligence process should establish:
+
+* Contractual data retention periods
+* Customer-configurable retention options
+* Backup retention periods
+* Secure deletion procedures
+* Data deletion following contract termination
+* Evidence available to demonstrate secure disposal
+
+### 3.7 Data Protection Considerations
+
+The assessment should determine whether CloudServe has appropriate controls for protecting FinServe information, including:
+
+* Encryption in transit
+* Encryption at rest
+* Access control
+* Privileged access management
+* Authentication and authorization
+* Data segregation
+* Logging and monitoring
+* Backup protection
+* Secure data deletion
+* Incident detection and notification
+
+Evidence supporting these controls will be evaluated during the **Evidence & Control Assessment** stage.
+
+### 3.8 Initial Data Risk Considerations
+
+The proposed processing of potentially sensitive information at significant scale introduces several areas requiring further assessment.
+
+Key considerations include:
+
+* Potential exposure of customer information
+* Large-scale processing of personal information
+* Potential processing of financial information
+* Vendor-controlled data storage
+* Potential cross-border processing
+* Subprocessor access
+* Data retention and deletion
+* Unauthorized access or disclosure
+* Availability and integrity of business information
+
+These considerations will contribute to the **Inherent Risk Assessment** in Session 2.
+
+> **Assessment Note:** No final data risk rating has been assigned at this stage. The purpose of this section is to establish the information-processing context and identify areas requiring validation through due diligence and evidence review.
