@@ -762,4 +762,44 @@ Severity Assigned
 Remediation Required
 
 
+### 8.6 Findings and Remediation GRC Workflow
+
+Findings identified during the CloudServe assessment should be recorded, assigned, tracked, and remediated through a controlled workflow.
+
+The objective is to ensure that every identified weakness has:
+
+- A unique finding ID
+- A defined risk rating
+- An accountable owner
+- A remediation action
+- A target completion date
+- A documented status
+- Supporting evidence
+- Validation before closure
+
+#### Finding Management Workflow
+
+```text
+Control Assessment
+       ↓
+Finding Identified
+       ↓
+Finding Logged
+       ↓
+Severity Assigned
+       ↓
+Remediation Owner Assigned
+       ↓
+Remediation Plan Created
+       ↓
+Target Date Established
+       ↓
+Remediation in Progress
+       ↓
+Evidence Submitted
+       ↓
+Validation
+       ↓
+Finding Closed
+
 
