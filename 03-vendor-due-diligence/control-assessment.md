@@ -510,5 +510,107 @@ CloudServe should:
 
 **Exception Identified**
 
+# 13. Control Assessment — Incident Response
+
+## CTRL-IR-001 — Security Incident Response and Notification
+
+### Risk Area
+
+Incident Response / Security Incident Management
+
+### Related Inherent Risk
+
+**Data Sensitivity: 4 / 5 — High**
+
+**Data Volume: 5 / 5 — Critical**
+
+**Business Criticality: 4 / 5 — High**
+
+A security incident affecting CloudServe could potentially expose sensitive information, disrupt important business processes, and affect a significant number of individuals.
+
+### Control Requirement
+
+CloudServe should maintain a documented incident response capability covering:
+
+- Incident identification
+- Triage and classification
+- Containment
+- Investigation
+- Eradication
+- Recovery
+- Root-cause analysis
+- Customer notification
+- Regulatory escalation where applicable
+- Post-incident remediation
+
+CloudServe should also maintain contractual commitments to notify FinServe of incidents affecting FinServe data or services within an agreed timeframe.
+
+### Vendor Response
+
+**Response: Implemented**
+
+CloudServe states that it maintains a formal incident response program and dedicated incident response procedures.
+
+The vendor states that:
+
+- Security incidents are classified according to severity.
+- Security incidents are escalated to designated response personnel.
+- Incident response exercises are performed periodically.
+- Customers are notified of incidents affecting their data or services according to contractual requirements.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- Incident Response Plan v4.0
+- Security Incident Classification Standard v2.2
+- Incident Escalation Procedure v2.1
+- 2026 Incident Response Tabletop Exercise Summary
+- Customer Security Incident Notification Procedure
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The simulated evidence demonstrates that CloudServe has a documented incident response framework and defined escalation procedures.
+
+The incident response tabletop exercise provides evidence that the documented response capability is periodically tested rather than existing only as a written policy.
+
+The evidence also indicates that customer notification requirements are formally defined.
+
+However, the portfolio assessment does not independently validate CloudServe's actual incident detection and response performance during a live security event.
+
+### Assessment
+
+The control appears appropriately designed and implemented based on the available evidence.
+
+The existence of documented procedures, defined escalation responsibilities, and periodic testing provides reasonable assurance that CloudServe has established an incident response capability.
+
+### Result
+
+**EFFECTIVE**
+
+### Finding
+
+No finding identified.
+
+### Severity
+
+**N/A**
+
+### Recommendation
+
+CloudServe should continue to conduct periodic incident response exercises and ensure that lessons learned from exercises and actual incidents are tracked through formal remediation processes.
+
+FinServe should also ensure that contractual incident notification timelines are clearly defined and aligned with its internal regulatory and incident-management requirements.
+
+### Assessment Status
+
+**Accepted**
+
+---
+
 
 
