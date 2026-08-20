@@ -155,4 +155,227 @@ No claim is being made that these platforms were used to execute the CloudServe 
 
 The purpose is to demonstrate an understanding of how **TPRM processes, risk decisions, controls, findings, and remediation activities translate into enterprise GRC workflows.**
 
+## 6. Vendor Onboarding and Vendor Record
+
+Vendor onboarding is the starting point of the TPRM lifecycle.
+
+Before a vendor can be assessed, the organization should establish a complete vendor record containing enough information to determine the vendor's potential risk exposure.
+
+---
+
+### 6.1 Portfolio Case Study Record
+
+The CloudServe Technologies Ltd. vendor profile developed in this case study contains the core information required to establish a third-party record.
+
+The vendor record includes:
+
+- Vendor name
+- Service provided
+- Business purpose
+- Data handled
+- Data sensitivity
+- Data volume
+- System access
+- Business criticality
+- Fourth-party dependency
+- Geographic considerations
+- Inherent risk
+- Vendor tier
+
+These attributes form the foundation for determining the appropriate level of third-party due diligence.
+
+---
+
+### 6.2 Example Enterprise GRC Vendor Record
+
+| Vendor Attribute | Portfolio Value |
+|---|---|
+| Vendor Name | CloudServe Technologies Ltd. |
+| Service | Cloud-based SaaS platform |
+| Vendor Tier | Tier 1 — Critical |
+| Business Criticality | 4 / 5 |
+| Data Sensitivity | 4 / 5 |
+| Data Volume | 5 / 5 |
+| Access & Integration | 4 / 5 |
+| Fourth-Party Dependency | 4 / 5 |
+| Inherent Risk Score | 4.20 / 5.00 |
+| Inherent Risk Rating | Critical |
+| Assessment Type | Enhanced Due Diligence |
+| Assessment Frequency | Annual / Risk-Based |
+| Current Assessment Status | In Progress |
+
+---
+
+### 6.3 ServiceNow Mapping
+
+In a ServiceNow-based implementation, the vendor could be represented as a third-party or vendor record containing:
+
+#### Vendor Information
+
+- Vendor name
+- Vendor type
+- Service provided
+- Business owner
+- Procurement owner
+- Contract information
+- Relationship status
+
+#### Risk Information
+
+- Inherent risk score
+- Risk rating
+- Criticality
+- Data classification
+- Access level
+- Regulatory considerations
+
+#### Workflow Information
+
+- Assessment status
+- Assigned assessor
+- Assessment due date
+- Approval status
+- Findings
+- Remediation tasks
+- Review date
+
+The vendor record would act as a central reference point for the third-party relationship.
+
+---
+
+### 6.4 Archer Mapping
+
+In an Archer implementation, the vendor record could be connected to the following workflow:
+
+```text
+Vendor
+   ↓
+Business Service
+   ↓
+Inherent Risk Assessment
+   ↓
+Due Diligence Assessment
+   ↓
+Controls
+   ↓
+Findings
+   ↓
+Remediation
+   ↓
+Residual Risk
+
+### 6.5 OneTrust Mapping
+
+Where OneTrust is used for third-party risk and privacy workflows, the vendor relationship could be connected to:
+
+- Third-party assessment
+- Privacy assessment
+- Data processing activities
+- Data classification
+- Subprocessor information
+- Regulatory requirements
+- Contractual obligations
+- Remediation actions
+
+This would be particularly relevant to CloudServe because the case study involves the processing of potentially sensitive information.
+
+---
+
+### 6.6 Vendor Tiering Trigger
+
+The inherent risk assessment resulted in a score of **4.20 / 5.00**, which is classified as **Critical**.
+
+This risk rating triggers an **Enhanced Due Diligence** workflow.
+
+#### Workflow Trigger
+
+```text
+Vendor Created
+      ↓
+Initial Risk Assessment
+      ↓
+Risk Score: 4.20 / 5.00
+      ↓
+Risk Rating: Critical
+      ↓
+Vendor Tier: Tier 1
+      ↓
+Enhanced Due Diligence
+      ↓
+Security Assessment
+      ↓
+Privacy Assessment
+      ↓
+Business Continuity Assessment
+      ↓
+Fourth-Party Assessment
+      ↓
+Control Assessment
+
+### 6.7 Risk-Based Workflow Principle
+
+The depth of the assessment should be proportional to the vendor's risk.
+
+A low-risk vendor should not automatically receive the same level of due diligence as a critical vendor.
+
+#### Example Assessment Approach
+
+| Vendor Tier | Assessment Approach |
+|---|---|
+| Tier 1 — Critical | Enhanced due diligence, evidence validation, control assessment, approval, and ongoing monitoring |
+| Tier 2 — High | Standard security and privacy assessment with targeted evidence collection |
+| Tier 3 — Moderate | Proportionate questionnaire and selected evidence |
+| Tier 4 — Low | Basic due diligence and contractual checks |
+
+A risk-based approach allows organizations to focus resources on vendors that could create the greatest business impact.
+
+#### Risk-Based Decision Principle
+
+> **The higher the potential impact and inherent risk, the greater the level of due diligence and oversight required.**
+
+This approach helps prevent unnecessary assessment effort for low-risk vendors while ensuring that critical vendors receive appropriate scrutiny.
+
+---
+
+### 6.8 Workflow Outcome
+
+For the CloudServe Technologies Ltd. case study, the initial risk assessment produces the following workflow outcome:
+
+| Assessment Element | Outcome |
+|---|---|
+| Inherent Risk Score | 4.20 / 5.00 |
+| Risk Rating | Critical |
+| Vendor Tier | Tier 1 — Critical |
+| Assessment Type | Enhanced Due Diligence |
+| Security Assessment | Required |
+| Privacy Assessment | Required |
+| Business Continuity Assessment | Required |
+| Fourth-Party Assessment | Required |
+| Control Assessment | Required |
+| Ongoing Monitoring | Required |
+
+#### Resulting TPRM Workflow
+
+```text
+Inherent Risk Assessment
+          ↓
+Critical Risk Rating
+          ↓
+Tier 1 Vendor Classification
+          ↓
+Enhanced Due Diligence
+          ↓
+Evidence Collection
+          ↓
+Control Assessment
+          ↓
+Findings Identification
+          ↓
+Remediation
+          ↓
+Residual Risk Assessment
+          ↓
+Risk Treatment / Acceptance
+          ↓
+Ongoing Monitoring
 
