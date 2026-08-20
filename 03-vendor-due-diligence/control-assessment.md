@@ -285,3 +285,109 @@ Maintain mandatory MFA for all privileged accounts and periodically review privi
 **Accepted**
 
 ---
+
+# 11. Control Assessment — Data Protection
+
+## CTRL-DATA-001 — Encryption of Data in Transit and at Rest
+
+### Risk Area
+
+Data Protection
+
+### Related Inherent Risk
+
+**Data Sensitivity: 4 / 5 — High**
+
+**Data Volume: 5 / 5 — Critical**
+
+CloudServe may process and store approximately 500,000 customer and employee records, including potentially sensitive and financial information.
+
+Unauthorized disclosure of this information could result in significant privacy, regulatory, financial, and reputational impact.
+
+### Control Requirement
+
+CloudServe should encrypt sensitive customer information:
+
+- In transit
+- At rest
+- Within applicable backups and replicated environments
+
+Encryption should use industry-accepted cryptographic standards and appropriate key-management practices.
+
+### Vendor Response
+
+**Response: Implemented**
+
+CloudServe states that customer data is encrypted in transit and at rest.
+
+The vendor states that:
+
+- TLS is used for data transmitted over external connections.
+- Data at rest is encrypted using industry-accepted encryption standards.
+- Encryption keys are managed through controlled key-management processes.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- Encryption Standard v2.0
+- Data Protection Policy v3.1
+- Cloud Security Architecture Summary
+- Key Management Procedure v2.2
+- SOC 2 Type II control mapping
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The simulated documentation indicates that encryption is implemented for data in transit and at rest.
+
+The evidence also indicates that encryption key management is subject to documented procedures.
+
+The SOC 2 Type II control mapping provides additional independent assurance that encryption-related controls form part of the vendor's control environment.
+
+However, the portfolio assessment does not include direct technical validation of the production environment or independent cryptographic configuration testing.
+
+### Assessment
+
+The control appears appropriately designed and implemented based on the available simulated evidence.
+
+Given the sensitivity and volume of information involved, encryption is considered an important mitigating control.
+
+The absence of direct production validation represents a limitation of this portfolio assessment but does not, based on the available evidence, indicate a control failure.
+
+### Result
+
+**EFFECTIVE**
+
+### Finding
+
+No finding identified.
+
+### Severity
+
+**N/A**
+
+### Recommendation
+
+CloudServe should maintain documented encryption standards and periodically review cryptographic algorithms, protocols, and key-management practices to ensure they remain aligned with current security requirements.
+
+### Assessment Status
+
+**Accepted**
+
+---
+HIGH DATA SENSITIVITY
+        +
+CRITICAL DATA VOLUME
+        ↓
+ENCRYPTION CONTROL
+        ↓
+EVIDENCE REVIEW
+        ↓
+EFFECTIVE
+        ↓
+NO CONTROL FINDING
+
