@@ -983,3 +983,111 @@ CloudServe and FinServe should:
 **Exception Identified**
 
 ---
+# 17. Control Assessment — Exit Management
+
+## CTRL-EXIT-001 — Data Return and Secure Destruction
+
+### Risk Area
+
+Exit Management / Data Lifecycle / Data Destruction
+
+### Related Inherent Risk
+
+**Data Sensitivity: 4 / 5 — High**
+
+**Data Volume: 5 / 5 — Critical**
+
+CloudServe may retain a significant volume of FinServe information throughout the vendor relationship.
+
+Failure to properly return or securely destroy information at termination could result in unauthorized retention or disclosure of FinServe data.
+
+### Control Requirement
+
+CloudServe should maintain documented procedures for:
+
+- Customer data export
+- Data return
+- Data deletion
+- Backup deletion
+- Subprocessor deletion
+- Secure destruction
+- Termination of access
+- Evidence of deletion
+- Customer confirmation where appropriate
+
+The contractual agreement should clearly define data retention and destruction requirements following termination.
+
+### Vendor Response
+
+**Response: Implemented**
+
+CloudServe states that it maintains a formal customer exit process.
+
+The vendor states that:
+
+- Customers can request export of their data following termination.
+- Production data is deleted following the agreed retention period.
+- Access to customer environments is revoked.
+- Subprocessors are instructed to delete customer information where applicable.
+- Data destruction activities are documented.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- Customer Exit Management Procedure v2.0
+- Data Retention and Destruction Standard v2.3
+- Customer Data Export Procedure
+- Secure Data Destruction Procedure
+- Sample Data Deletion Certificate
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The available evidence indicates that CloudServe has documented procedures covering customer data export and secure destruction.
+
+The process also addresses termination of access and deletion requirements for relevant subprocessors.
+
+A sample data deletion certificate demonstrates that CloudServe has a mechanism for providing evidence that deletion activities have been completed.
+
+However, the portfolio assessment does not independently validate the technical deletion of production data or backup copies.
+
+### Assessment
+
+The control appears appropriately designed and implemented based on the available evidence.
+
+The documentation provides reasonable assurance that CloudServe has established a formal exit management process.
+
+### Result
+
+**EFFECTIVE**
+
+### Finding
+
+No finding identified.
+
+### Severity
+
+**N/A**
+
+### Recommendation
+
+FinServe should ensure that contractual exit provisions clearly define:
+
+- Data export requirements
+- Retention periods
+- Deletion timelines
+- Backup handling
+- Subprocessor obligations
+- Evidence of destruction
+
+The exit process should also be tested periodically for critical vendors where practical.
+
+### Assessment Status
+
+**Accepted**
+
+---
