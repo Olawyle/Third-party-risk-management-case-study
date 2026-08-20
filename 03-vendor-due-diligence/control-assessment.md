@@ -211,3 +211,77 @@ The assessment conclusions therefore demonstrate the TPRM methodology and decisi
 
 **Overall Control Assessment:** In Progress
 
+---
+
+# 10. Control Assessment — Identity & Privileged Access
+
+## CTRL-IAM-001 — Multi-Factor Authentication for Privileged Accounts
+
+### Risk Area
+
+Identity and Access Management
+
+### Related Inherent Risk
+
+**Access & Integration: 4 / 5 — High**
+
+CloudServe may provide administrative and vendor support access to the SaaS environment. Compromise of privileged credentials could therefore result in unauthorized access to sensitive information or critical functionality.
+
+### Control Requirement
+
+CloudServe should enforce Multi-Factor Authentication (MFA) for all privileged and administrative accounts.
+
+### Vendor Response
+
+**Response: Implemented**
+
+CloudServe states that MFA is mandatory for all privileged administrative accounts.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- IAM Policy v3.2
+- Privileged Access Management Procedure v2.1
+- SOC 2 Type II control mapping
+- Sample privileged access configuration
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The simulated evidence indicates that MFA is formally required for privileged accounts and that privileged access is subject to additional access controls.
+
+The SOC 2 Type II control mapping provides additional independent assurance that the control is included within the vendor's control environment.
+
+However, the assessment does not include live configuration validation or direct testing of the production environment.
+
+### Assessment
+
+The control appears appropriately designed and implemented based on the available simulated evidence.
+
+The remaining limitation is that production configuration has not been independently validated as part of this portfolio exercise.
+
+### Result
+
+**EFFECTIVE**
+
+### Finding
+
+No finding identified.
+
+### Severity
+
+**N/A**
+
+### Recommendation
+
+Maintain mandatory MFA for all privileged accounts and periodically review privileged access to ensure MFA enforcement remains effective.
+
+### Assessment Status
+
+**Accepted**
+
+---
