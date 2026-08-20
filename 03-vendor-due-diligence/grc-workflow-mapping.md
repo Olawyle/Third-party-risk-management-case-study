@@ -633,3 +633,133 @@ Findings Identified
       ↓
 Remediation Required
 
+## 8. Control Assessment and Findings Management
+
+The control assessment stage evaluates whether the vendor's controls are appropriately designed, implemented, and operating effectively.
+
+For the CloudServe Technologies Ltd. assessment, the control assessment is based on the evidence collected during the due diligence process.
+
+The assessment process follows:
+
+```text
+Evidence
+   ↓
+Control Mapping
+   ↓
+Control Design Assessment
+   ↓
+Control Operating Effectiveness Assessment
+   ↓
+Assessment Result
+   ↓
+Finding Identification
+   ↓
+Risk Evaluation
+   ↓
+Remediation
+
+### 8.1 Control Assessment Workflow
+
+The control assessment determines whether the evidence provided by the vendor supports the effectiveness of the relevant control.
+
+The assessment considers two primary dimensions:
+
+| Assessment Dimension | Purpose |
+|---|---|
+| Control Design | Determines whether the control is appropriately designed to address the identified risk |
+| Operating Effectiveness | Determines whether the control is implemented and operating as intended |
+
+A control should not automatically be rated effective simply because a policy or procedure exists.
+
+The assessment should consider whether the control is:
+
+- Appropriately designed
+- Implemented
+- Supported by sufficient evidence
+- Operating consistently
+- Relevant to the identified risk
+- Subject to appropriate oversight
+
+---
+
+### 8.2 Control Effectiveness Rating
+
+The following rating model is used for this case study:
+
+| Rating | Definition |
+|---|---|
+| Effective | Control is appropriately designed, implemented, and supported by sufficient evidence |
+| Partially Effective | Control exists but has a weakness, limitation, or evidence gap |
+| Ineffective | Control is absent, inadequately designed, or not operating as intended |
+| Unable to Validate | Available evidence is insufficient to determine control effectiveness |
+| Not Applicable | Control does not apply to the vendor or service |
+
+---
+
+### 8.3 Control Assessment Decision Logic
+
+The assessment decision process can be represented as:
+
+```text
+Is the control designed appropriately?
+              ↓
+             Yes
+              ↓
+Is the control implemented?
+              ↓
+             Yes
+              ↓
+Is sufficient evidence available?
+              ↓
+             Yes
+              ↓
+Is the control operating effectively?
+              ↓
+        ┌─────┴─────┐
+       Yes           No
+        ↓             ↓
+   Effective    Partially Effective
+                      or
+                  Ineffective
+
+### 8.4 CloudServe Control Assessment
+
+The assessment of CloudServe Technologies Ltd. produced the following control effectiveness results:
+
+| Control ID | Control Area | Assessment |
+|---|---|---|
+| CTRL-IAM-001 | Identity & Access Management | Effective |
+| CTRL-DATA-001 | Data Protection & Encryption | Effective |
+| CTRL-VULN-001 | Vulnerability Management | Partially Effective |
+| CTRL-BCP-001 | Business Continuity & Disaster Recovery | Partially Effective |
+| CTRL-FPR-001 | Fourth-Party Risk Management | Partially Effective |
+| CTRL-PRIV-001 | Privacy & Data Protection | Partially Effective |
+| CTRL-EXIT-001 | Data Retention & Secure Deletion | Effective |
+
+The controls assessed as **Partially Effective** require further review, remediation, or formal risk treatment.
+
+---
+
+### 8.5 Evidence-to-Finding Relationship
+
+A control weakness should be converted into a formal finding when the identified deficiency creates a meaningful risk exposure.
+
+The relationship between evidence, controls, and findings can be represented as:
+
+```text
+Evidence Reviewed
+       ↓
+Control Assessment
+       ↓
+Control Weakness Identified
+       ↓
+Risk Impact Evaluated
+       ↓
+Finding Created
+       ↓
+Severity Assigned
+       ↓
+Remediation Required
+
+
+
