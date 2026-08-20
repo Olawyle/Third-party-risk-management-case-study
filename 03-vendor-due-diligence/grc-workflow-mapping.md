@@ -379,3 +379,257 @@ Risk Treatment / Acceptance
           ↓
 Ongoing Monitoring
 
+## 7. Due Diligence and Evidence Collection
+
+Once a vendor has been classified and the appropriate assessment level has been determined, the organization initiates the due diligence process.
+
+For a Tier 1 critical vendor such as CloudServe Technologies Ltd., the assessment requires enhanced due diligence supported by appropriate evidence.
+
+The objective is to obtain sufficient information to determine whether the vendor's controls adequately address the identified risks.
+
+---
+
+### 7.1 Due Diligence Workflow
+
+The due diligence workflow developed in this case study follows:
+
+```text
+Enhanced Due Diligence Trigger
+            ↓
+Assessment Questionnaire
+            ↓
+Evidence Request
+            ↓
+Vendor Response
+            ↓
+Evidence Submission
+            ↓
+Evidence Review
+            ↓
+Control Assessment
+            ↓
+Finding Identification
+            ↓
+Remediation
+
+### 7.2 Portfolio Artifacts
+
+The CloudServe assessment includes the following due diligence artifacts:
+
+| Portfolio Artifact | Purpose |
+|---|---|
+| Due Diligence Questionnaire | Captures vendor responses across key risk domains |
+| Evidence Request Register | Tracks evidence requested from the vendor |
+| Control Assessment | Evaluates the effectiveness of vendor controls |
+| Findings & Remediation Register | Tracks identified control weaknesses and remediation |
+| GRC Workflow Mapping | Demonstrates how the process could be operationalized in an enterprise GRC environment |
+
+These artifacts collectively provide an auditable assessment trail.
+
+---
+
+### 7.3 Evidence-Based Assessment
+
+Vendor responses should not automatically be treated as evidence of effective controls.
+
+The assessment should distinguish between:
+
+| Assessment Element | Description |
+|---|---|
+| Vendor Assertion | What the vendor states it does |
+| Supporting Evidence | Documentation or evidence supporting the vendor's response |
+| Control Assessment | Evaluation of whether the control is appropriately designed and implemented |
+| Assessment Result | Effective, Partially Effective, Ineffective, Unable to Validate, or Not Applicable |
+| Finding | Identified control weakness requiring remediation |
+
+For example:
+
+> Vendor states that MFA is mandatory for privileged accounts.
+
+The statement alone does not establish that MFA is effectively implemented.
+
+Supporting evidence could include:
+
+- IAM policy
+- Access control procedure
+- Configuration evidence
+- Independent assurance report
+- Relevant audit evidence
+
+The assessment conclusion should therefore be based on available evidence rather than the vendor's declaration alone.
+
+---
+
+### 7.4 ServiceNow Mapping
+
+In a ServiceNow-based implementation, the due diligence workflow could be represented through:
+
+- Vendor assessment record
+- Assessment questionnaire
+- Assessment tasks
+- Evidence requests
+- Evidence attachments
+- Control assessments
+- Issues or findings
+- Remediation tasks
+- Approval workflows
+
+A simplified workflow could be represented as:
+
+```text
+Vendor Record
+      ↓
+Assessment Created
+      ↓
+Questionnaire Assigned
+      ↓
+Vendor Response
+      ↓
+Evidence Submitted
+      ↓
+Assessor Review
+      ↓
+Control Assessment
+      ↓
+Finding / No Finding
+      ↓
+Remediation Task
+
+### 7.5 Archer Mapping
+
+In an Archer implementation, the due diligence process could connect the following records:
+
+```text
+Third Party
+     ↓
+Risk Assessment
+     ↓
+Assessment Questionnaire
+     ↓
+Control Responses
+     ↓
+Evidence
+     ↓
+Control Assessment
+     ↓
+Findings
+     ↓
+Remediation
+     ↓
+Residual Risk
+
+### 7.6 Vanta Mapping
+
+Vanta can support the evidence and compliance assurance component of the workflow.
+
+For a vendor assessment, Vanta-style capabilities could support the collection or validation of security and compliance evidence such as:
+
+- SOC 2 reports
+- ISO 27001 certification
+- Security policies
+- Penetration testing evidence
+- Security control information
+- Compliance documentation
+- Security monitoring information
+
+In this case study, Vanta is **not being used to perform the actual CloudServe assessment**.
+
+Instead, its potential role is mapped as an example of how automated security and compliance evidence could supplement the traditional questionnaire process.
+
+---
+
+### 7.7 OneTrust Mapping
+
+OneTrust can support third-party risk and privacy-related assessment activities.
+
+For CloudServe, relevant workflows could include:
+
+- Third-party risk assessment
+- Privacy assessment
+- Data processing assessment
+- Subprocessor assessment
+- Data protection requirements
+- Contractual privacy requirements
+- Privacy-related remediation
+
+This is particularly relevant because CloudServe may process sensitive information on behalf of FinServe.
+
+---
+
+### 7.8 Evidence Quality Assessment
+
+Evidence should be evaluated based on several key attributes:
+
+| Evidence Attribute | Assessment Consideration |
+|---|---|
+| Relevance | Does the evidence address the specific control being assessed? |
+| Currency | Is the evidence sufficiently recent? |
+| Completeness | Does it provide enough information to support the assessment? |
+| Authenticity | Can the source and origin of the evidence be established? |
+| Independence | Is the evidence independently validated where appropriate? |
+| Scope | Does the evidence cover the relevant service, environment, and assessment period? |
+
+The strength and reliability of the evidence should influence the level of assurance assigned to the control.
+
+---
+
+### 7.9 Risk-Based Evidence Collection
+
+Evidence requirements should be proportional to the vendor's risk.
+
+A Tier 1 critical vendor may require stronger and more extensive evidence than a low-risk vendor.
+
+#### Example Evidence Requirements
+
+| Risk Level | Example Evidence Requirement |
+|---|---|
+| Critical | Independent assurance reports, penetration testing evidence, security policies, control evidence, BCP/DR evidence, and privacy documentation |
+| High | Relevant independent assurance reports and targeted control evidence |
+| Moderate | Questionnaire responses and selected supporting evidence |
+| Low | Basic security and contractual documentation |
+
+The objective is not to collect the largest possible volume of documentation.
+
+The objective is to obtain **sufficient, relevant, and reliable evidence to support a risk-based decision**.
+
+---
+
+### 7.10 Evidence-to-Control Traceability
+
+The assessment should maintain traceability between evidence and the controls being evaluated.
+
+#### Example
+
+| Evidence | Related Control | Assessment |
+|---|---|---|
+| IAM Policy | CTRL-IAM-001 | Effective |
+| Encryption Standard | CTRL-DATA-001 | Effective |
+| Penetration Test | CTRL-VULN-001 | Partially Effective |
+| DR Test Summary | CTRL-BCP-001 | Partially Effective |
+| Subprocessor Assessment | CTRL-FPR-001 | Partially Effective |
+| Data Processing Agreement | CTRL-PRIV-001 | Partially Effective |
+| Data Deletion Procedure | CTRL-EXIT-001 | Effective |
+
+This traceability demonstrates how evidence supports the control assessment and ultimately contributes to the overall risk decision.
+
+---
+
+### 7.11 Workflow Outcome
+
+The due diligence workflow produces a documented evidence trail:
+
+```text
+Vendor Response
+      ↓
+Evidence Submitted
+      ↓
+Evidence Quality Review
+      ↓
+Control Mapping
+      ↓
+Control Effectiveness Assessment
+      ↓
+Findings Identified
+      ↓
+Remediation Required
+
