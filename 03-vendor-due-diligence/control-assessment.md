@@ -611,6 +611,125 @@ FinServe should also ensure that contractual incident notification timelines are
 **Accepted**
 
 ---
+# 14. Control Assessment — Business Continuity & Disaster Recovery
 
+## CTRL-BCP-001 — Business Continuity and Disaster Recovery
+
+### Risk Area
+
+Business Continuity / Disaster Recovery / Resilience
+
+### Related Inherent Risk
+
+**Business Criticality: 4 / 5 — High**
+
+CloudServe may support important customer-facing and operational processes for FinServe.
+
+A prolonged service disruption could result in operational delays, customer impact, financial consequences, and reputational damage.
+
+### Control Requirement
+
+CloudServe should maintain documented business continuity and disaster recovery capabilities covering:
+
+- Critical business services
+- Recovery priorities
+- Recovery Time Objectives (RTO)
+- Recovery Point Objectives (RPO)
+- Backup procedures
+- Disaster recovery procedures
+- Alternative processing capabilities
+- Recovery testing
+- Lessons learned and remediation
+
+### Vendor Response
+
+**Response: Partially Implemented**
+
+CloudServe states that it maintains documented business continuity and disaster recovery plans.
+
+The vendor states that:
+
+- Critical services have defined recovery objectives.
+- Customer data is backed up regularly.
+- Disaster recovery capabilities are tested periodically.
+- Recovery procedures are maintained by designated technical teams.
+
+However, the most recent disaster recovery exercise identified a **failure to meet the documented RTO for one critical application dependency**.
+
+CloudServe has initiated remediation but has not yet completed validation testing.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- Business Continuity Plan v3.2
+- Disaster Recovery Plan v4.1
+- Service Recovery Matrix
+- RTO/RPO Register
+- 2026 Disaster Recovery Test Summary
+- DR Remediation Tracker
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The evidence demonstrates that CloudServe has documented business continuity and disaster recovery processes.
+
+The vendor has also established recovery objectives and conducts periodic recovery testing.
+
+However, the latest DR exercise identified a failure to meet the documented RTO for a critical application dependency.
+
+This indicates that the documented recovery capability does not currently perform fully in accordance with the stated recovery requirement.
+
+### Assessment
+
+The control is appropriately designed and substantially implemented, but the identified RTO failure represents a resilience gap.
+
+Because the affected dependency supports a critical component of the service, remediation and validation should be completed before the control is considered fully effective.
+
+### Result
+
+**PARTIALLY EFFECTIVE**
+
+### Finding
+
+**FND-002 — Disaster Recovery RTO Failure**
+
+The most recent disaster recovery exercise identified a failure to meet the documented Recovery Time Objective for a critical application dependency.
+
+Although remediation has been initiated, the recovery capability has not yet been successfully revalidated.
+
+### Severity
+
+**HIGH**
+
+### Risk Impact
+
+Failure to recover a critical service within the required timeframe could result in prolonged service disruption and materially affect FinServe's customer-facing and operational processes.
+
+The risk is elevated because CloudServe has been classified as a Tier 1 critical vendor.
+
+### Recommendation
+
+CloudServe should:
+
+1. Complete remediation of the identified recovery deficiency.
+2. Identify and address the root cause of the RTO failure.
+3. Conduct a repeat recovery test.
+4. Provide evidence demonstrating successful achievement of the required RTO.
+5. Review whether the documented RTO remains appropriate for the service.
+6. Track the remediation through formal governance until closure.
+
+### Remediation Status
+
+**Open**
+
+### Assessment Status
+
+**Exception Identified**
+
+---
 
 
