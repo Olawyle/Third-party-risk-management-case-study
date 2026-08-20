@@ -853,3 +853,133 @@ CloudServe should:
 **Exception Identified**
 
 ---
+# 16. Control Assessment — Privacy & Data Processing
+
+## CTRL-PRIV-001 — Data Processing and Privacy Governance
+
+### Risk Area
+
+Privacy / Data Protection / Regulatory Compliance
+
+### Related Inherent Risk
+
+**Data Sensitivity: 4 / 5 — High**
+
+**Data Volume: 5 / 5 — Critical**
+
+CloudServe may process a significant volume of customer and employee information on behalf of FinServe.
+
+Inadequate privacy governance could result in unauthorized processing, inappropriate data retention, regulatory non-compliance, or unauthorized disclosure of personal information.
+
+### Control Requirement
+
+CloudServe should maintain appropriate privacy and data protection controls covering:
+
+- Data processing activities
+- Data ownership and responsibilities
+- Data retention
+- Data subject rights
+- Data protection obligations
+- Subprocessor processing
+- Cross-border data transfers where applicable
+- Security incident notification
+- Data deletion following termination
+
+A formal Data Processing Agreement (DPA) should also establish the responsibilities of CloudServe and FinServe.
+
+### Vendor Response
+
+**Response: Partially Implemented**
+
+CloudServe states that it maintains a formal privacy and data protection program.
+
+The vendor states that:
+
+- Customer data processing activities are documented.
+- Privacy responsibilities are assigned.
+- Data retention requirements are defined.
+- Subprocessors are subject to contractual requirements.
+- Data subject requests are handled through documented procedures.
+- Security incidents involving customer data are escalated according to contractual requirements.
+
+However, the current Data Processing Agreement does not clearly define the notification timeline for certain categories of regulatory data protection incidents.
+
+CloudServe has agreed to review and update the contractual language.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- Privacy and Data Protection Policy v3.0
+- Data Processing Agreement
+- Data Retention Standard v2.1
+- Data Subject Request Procedure
+- Subprocessor Data Protection Requirements
+- Privacy Governance Framework
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The evidence demonstrates that CloudServe has established a privacy and data protection framework.
+
+The vendor maintains documented privacy policies, data retention requirements, data subject request procedures, and contractual requirements for subprocessors.
+
+However, the DPA contains an identified contractual ambiguity regarding notification timelines for certain regulatory data protection incidents.
+
+Because CloudServe may process a large volume of sensitive information, clarity around incident notification responsibilities is important for FinServe's regulatory and incident-response obligations.
+
+### Assessment
+
+The underlying privacy control framework appears substantially implemented.
+
+However, the identified contractual gap creates uncertainty regarding the timing and coordination of regulatory incident notification.
+
+The control is therefore considered partially effective until the contractual requirement is clarified.
+
+### Result
+
+**PARTIALLY EFFECTIVE**
+
+### Finding
+
+**FND-004 — Data Protection Incident Notification Requirement Requires Clarification**
+
+The current Data Processing Agreement does not clearly establish notification timelines for certain categories of regulatory data protection incidents.
+
+This could create uncertainty regarding responsibilities and escalation timelines during a privacy-related incident.
+
+### Severity
+
+**MEDIUM**
+
+### Risk Impact
+
+Ambiguity in contractual notification requirements could delay coordination between CloudServe and FinServe during a privacy incident.
+
+Given the volume and sensitivity of data involved, delayed notification could increase regulatory and operational exposure.
+
+The risk is partially mitigated by CloudServe's existing incident response and privacy governance processes.
+
+### Recommendation
+
+CloudServe and FinServe should:
+
+1. Review the Data Processing Agreement.
+2. Define clear notification timelines for relevant privacy and regulatory incidents.
+3. Establish escalation responsibilities for both parties.
+4. Align contractual notification requirements with FinServe's internal incident response and regulatory obligations.
+5. Obtain formal approval of the revised contractual language.
+6. Retain the updated DPA as evidence of remediation.
+
+### Remediation Status
+
+**Open**
+
+### Assessment Status
+
+**Exception Identified**
+
+---
