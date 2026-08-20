@@ -802,4 +802,70 @@ Validation
        ↓
 Finding Closed
 
+### 8.7 Residual Risk and Risk Acceptance
 
+Residual risk is the level of risk that remains after existing controls and planned risk treatments have been considered.
+
+For third-party risk management, remediation does not always eliminate risk completely. The organization must therefore determine whether the remaining risk is acceptable.
+
+#### Residual Risk Workflow
+
+```text
+Inherent Risk
+      ↓
+Existing Controls
+      ↓
+Control Assessment
+      ↓
+Findings Identified
+      ↓
+Risk Treatment
+      ↓
+Remediation
+      ↓
+Residual Risk Assessment
+      ↓
+Risk Acceptance Decision
+
+### 8.8 End-to-End GRC Workflow
+
+The complete CloudServe third-party risk assessment can be represented as an end-to-end GRC workflow.
+
+The workflow connects vendor onboarding, risk assessment, due diligence, evidence collection, control assessment, findings, remediation, and residual risk.
+
+#### Complete TPRM Workflow
+
+```text
+Vendor Onboarding
+       ↓
+Vendor Profile Created
+       ↓
+Inherent Risk Assessment
+       ↓
+Vendor Tiering
+       ↓
+Enhanced Due Diligence
+       ↓
+Questionnaire
+       ↓
+Evidence Collection
+       ↓
+Evidence Review
+       ↓
+Control Assessment
+       ↓
+Findings Identified
+       ↓
+Remediation
+       ↓
+Remediation Validation
+       ↓
+Residual Risk Assessment
+       ↓
+Risk Treatment / Acceptance
+       ↓
+Vendor Approval
+       ↓
+Ongoing Monitoring
+       ↓
+Periodic Reassessment
