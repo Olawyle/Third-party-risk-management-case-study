@@ -732,4 +732,124 @@ CloudServe should:
 
 ---
 
+# 15. Control Assessment — Fourth-Party Risk
 
+## CTRL-FPR-001 — Subprocessor and Fourth-Party Risk Management
+
+### Risk Area
+
+Fourth-Party Risk / Supply Chain Security
+
+### Related Inherent Risk
+
+**Fourth-Party Dependency: 4 / 5 — High**
+
+CloudServe may rely on external providers for cloud infrastructure, data storage, backup, security services, and other technology capabilities.
+
+A security incident or service failure involving a critical fourth party could therefore affect CloudServe's ability to protect FinServe information or maintain service availability.
+
+### Control Requirement
+
+CloudServe should maintain a formal fourth-party risk management process that includes:
+
+- Identification of material subprocessors
+- Risk assessment before onboarding
+- Security requirements for critical fourth parties
+- Ongoing monitoring
+- Contractual security obligations
+- Incident notification requirements
+- Change notification
+- Business continuity considerations
+- Periodic reassessment
+
+### Vendor Response
+
+**Response: Partially Implemented**
+
+CloudServe states that it maintains a formal subprocessor management process.
+
+The vendor states that:
+
+- Material subprocessors are identified.
+- Security assessments are performed before onboarding critical subprocessors.
+- Contractual security requirements are included in supplier agreements.
+- Customers are notified of material subprocessor changes.
+
+However, the current subprocessor inventory identifies one critical cloud infrastructure provider for which CloudServe's latest security assessment is **more than 18 months old**.
+
+CloudServe has stated that an updated assessment is scheduled but has not yet been completed.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- Subprocessor Management Policy v2.4
+- Current Subprocessor Register
+- Fourth-Party Risk Assessment Procedure
+- Sample Critical Supplier Security Assessment
+- Cloud Infrastructure Provider Assurance Report
+- Subprocessor Change Notification Procedure
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The evidence demonstrates that CloudServe has established a formal process for identifying and assessing material subprocessors.
+
+The subprocessor register provides visibility into the vendor's external dependencies.
+
+However, the assessment identified a gap in the currency of security assurance for one critical cloud infrastructure provider.
+
+The latest available assessment for the provider is more than 18 months old.
+
+Given the criticality of the dependency, the evidence does not currently provide sufficient assurance that the provider's security posture remains adequately assessed.
+
+### Assessment
+
+The control is partially effective.
+
+CloudServe has established an appropriate fourth-party risk management framework, but the identified gap in ongoing assurance for a critical dependency reduces the effectiveness of the control.
+
+### Result
+
+**PARTIALLY EFFECTIVE**
+
+### Finding
+
+**FND-003 — Outdated Security Assessment for Critical Fourth Party**
+
+CloudServe's current subprocessor inventory identifies a critical cloud infrastructure provider whose most recent security assessment is more than 18 months old.
+
+The absence of current assurance evidence creates uncertainty regarding the provider's current security posture.
+
+### Severity
+
+**MEDIUM**
+
+### Risk Impact
+
+A security weakness or service disruption affecting the critical cloud infrastructure provider could potentially impact CloudServe's confidentiality, availability, or integrity and consequently affect FinServe.
+
+The risk is partially mitigated by CloudServe's existing subprocessor governance framework and contractual requirements.
+
+### Recommendation
+
+CloudServe should:
+
+1. Complete the outstanding security reassessment of the critical cloud infrastructure provider.
+2. Obtain current independent assurance evidence where available.
+3. Establish defined reassessment frequencies for critical fourth parties.
+4. Track overdue fourth-party assessments through formal risk governance.
+5. Escalate material fourth-party risk exceptions to appropriate management.
+
+### Remediation Status
+
+**Open**
+
+### Assessment Status
+
+**Exception Identified**
+
+---
