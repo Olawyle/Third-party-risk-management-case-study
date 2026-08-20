@@ -391,3 +391,124 @@ EFFECTIVE
         ↓
 NO CONTROL FINDING
 
+# 12. Control Assessment — Vulnerability Management
+
+## CTRL-VULN-001 — Vulnerability Management and Penetration Testing
+
+### Risk Area
+
+Vulnerability Management / Application Security
+
+### Related Inherent Risk
+
+**Access & Integration: 4 / 5 — High**
+
+CloudServe provides a technology service that may integrate with FinServe systems and process sensitive information.
+
+A vulnerability affecting the platform, application, API, or supporting infrastructure could potentially result in unauthorized access, data exposure, or service disruption.
+
+### Control Requirement
+
+CloudServe should maintain a formal vulnerability management program that includes:
+
+- Regular vulnerability scanning
+- Risk-based vulnerability classification
+- Defined remediation timelines
+- Application security testing
+- Independent penetration testing
+- Tracking and remediation of identified vulnerabilities
+
+### Vendor Response
+
+**Response: Partially Implemented**
+
+CloudServe states that:
+
+- Automated vulnerability scanning is performed regularly.
+- Vulnerabilities are risk-rated using a documented methodology.
+- Critical vulnerabilities are subject to accelerated remediation.
+- Annual penetration testing is performed.
+
+However, the most recent penetration test identified **two high-severity findings that remain open**.
+
+The vendor states that remediation is in progress.
+
+### Evidence Reviewed
+
+**Simulated Evidence:**
+
+- Vulnerability Management Policy v3.0
+- Vulnerability Remediation Standard v2.1
+- 2026 Penetration Test Executive Summary
+- Vulnerability Management Dashboard — Q2 2026
+- Remediation Tracking Report
+
+**Evidence Classification:**
+
+SIMULATED / PORTFOLIO DEMONSTRATION — NOT ACTUAL VENDOR EVIDENCE
+
+### Evidence Assessment
+
+The evidence demonstrates that CloudServe has a formal vulnerability management process and conducts recurring vulnerability scanning and penetration testing.
+
+However, the most recent penetration testing identified two high-severity findings that remain unresolved.
+
+The existence of open high-severity findings does not automatically mean that the overall vulnerability management program is ineffective. The assessment must also consider:
+
+- Age of the findings
+- Business impact
+- Exploitability
+- Compensating controls
+- Documented remediation plan
+- Target remediation dates
+
+The available evidence indicates that remediation activities have been initiated but are not yet complete.
+
+### Assessment
+
+The control is appropriately designed and appears to be operating, but unresolved high-severity penetration-test findings create a material control weakness.
+
+Because the findings remain open, the control cannot currently be considered fully effective.
+
+### Result
+
+**PARTIALLY EFFECTIVE**
+
+### Finding
+
+**FND-001 — Open High-Severity Penetration Testing Findings**
+
+The most recent penetration test identified two high-severity findings that remain open at the time of assessment.
+
+Although remediation has reportedly commenced, the findings represent unresolved security weaknesses that could increase the likelihood or impact of exploitation.
+
+### Severity
+
+**HIGH**
+
+### Risk Impact
+
+If the identified vulnerabilities were exploited, an attacker could potentially gain unauthorized access to application functionality, sensitive information, or connected services.
+
+The potential impact is elevated because CloudServe may process a large volume of customer and employee information and may integrate with FinServe systems.
+
+### Recommendation
+
+CloudServe should:
+
+1. Complete remediation of the identified high-severity findings within the agreed remediation timeline.
+2. Provide evidence demonstrating successful remediation.
+3. Perform validation testing to confirm that the vulnerabilities have been resolved.
+4. Document any compensating controls where remediation cannot be completed within the required timeframe.
+5. Escalate overdue high-severity vulnerabilities through appropriate security governance channels.
+
+### Remediation Status
+
+**Open**
+
+### Assessment Status
+
+**Exception Identified**
+
+
+
