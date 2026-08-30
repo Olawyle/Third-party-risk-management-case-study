@@ -221,14 +221,12 @@ Where example evidence is created for demonstration purposes, it should be clear
 
 **Evidence Requests:** 35
 
-**Evidence Received:** 0
+**Actual Vendor Evidence Received:** 0
 
-**Evidence Under Review:** 0
+**Portfolio Simulation Evidence:** Used for portfolio assessment demonstration
 
-**Evidence Accepted:** 0
+**Actual Vendor Exceptions:** Not Applicable
 
-**Exceptions Identified:** 0
+**Overall Evidence Status:** Simulated Evidence Used for Portfolio Assessment
 
-**Overall Evidence Status:** Not Started
-
-**Next Step:** Evidence Review and Control Assessment
+> **Portfolio Note:** No actual CloudServe vendor evidence was received or used. The control assessment in Stage 4 uses clearly labelled simulated evidence solely to demonstrate the TPRM assessment methodology.
