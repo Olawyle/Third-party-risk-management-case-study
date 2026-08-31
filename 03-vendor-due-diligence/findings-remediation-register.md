@@ -4,20 +4,26 @@
 
 This register provides a centralized record of control deficiencies identified during the enhanced third-party risk assessment of CloudServe Technologies Ltd.
 
-The register establishes traceability between:
+It maintains traceability between:
 
-**Risk → Control → Evidence → Finding → Remediation → Closure Evidence → Residual Risk**
+**Control → Finding → Remediation → Validation → Residual Risk**
 
-Findings identified during the control assessment are tracked through remediation until they are either:
-
-- Closed
-- Accepted as residual risk
-- Deferred with documented justification
-- Escalated for management decision
+Findings remain open until remediation evidence has been reviewed and the corrective action has been validated.
 
 ---
 
-## 2. Finding Management Lifecycle
+## 2. Findings Register
+
+| Finding ID | Finding | Control | Severity | Treatment | Status |
+|---|---|---|---|---|---|
+| FND-001 | Open High-Severity Penetration Testing Findings | CTRL-VULN-001 | High | Mitigate | Open |
+| FND-002 | Disaster Recovery RTO Failure | CTRL-BCP-001 | High | Mitigate | Open |
+| FND-003 | Outdated Security Assessment for Critical Fourth Party | CTRL-FPR-001 | Medium | Mitigate | Open |
+| FND-004 | Data Protection Incident Notification Requirement | CTRL-PRIV-001 | Medium | Mitigate | Open |
+
+---
+
+## 3. Finding Management Lifecycle
 
 ```text
 Finding Identified
@@ -35,29 +41,3 @@ Remediation Evidence
 Validation
         ↓
 Closed / Risk Accepted / Escalated
-
-
-### Why we're doing this separately
-
-This file is now your **central findings register**.
-
-Think of it as the bridge between your assessment and an actual GRC platform:
-
-```text
-CONTROL ASSESSMENT
-       ↓
-   FND-001
-   FND-002
-   FND-003
-   FND-004
-       ↓
-FINDINGS REGISTER
-       ↓
-REMEDIATION
-       ↓
-VALIDATION
-       ↓
-RESIDUAL RISK
-       ↓
-CLOSURE / ACCEPTANCE
-
