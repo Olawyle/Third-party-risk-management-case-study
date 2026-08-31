@@ -32,21 +32,21 @@ Vendor assertions were not treated as sufficient evidence of control effectivene
 | CTRL-IAM-001 | Identity & Privileged Access | Effective |
 | CTRL-DATA-001 | Data Protection & Encryption | Effective |
 | CTRL-VULN-001 | Vulnerability Management & Penetration Testing | Partially Effective |
-| CTRL-IR-001 | Security Incident Response & Notification | Partially Effective |
+| CTRL-IR-001 | Security Incident Response & Notification | Effective
 | CTRL-BCP-001 | Business Continuity & Disaster Recovery | Partially Effective |
 | CTRL-FPR-001 | Fourth-Party Risk Management | Partially Effective |
 | CTRL-PRIV-001 | Privacy & Data Processing | Partially Effective |
 | CTRL-EXIT-001 | Data Return & Secure Destruction | Effective |
 
-### Assessment Summary
+## Control Assessment Summary
 
-| Outcome | Count |
+| Assessment Outcome | Count |
 |---|---:|
-| Effective | 3 |
-| Partially Effective | 5 |
+| Effective | 4 |
+| Partially Effective | 4 |
 | Ineffective | 0 |
 | Unable to Validate | 0 |
-| Total Controls Assessed | 8 |
+| **Total Controls Assessed** | **8** |
 
 The assessment identified weaknesses requiring remediation but did not identify an ineffective control requiring immediate rejection of the vendor relationship.
 
@@ -135,7 +135,7 @@ The assessment identified weaknesses requiring remediation but did not identify 
 
 ## 5. Overall Assessment
 
-The control assessment indicates that CloudServe has several established controls, but five control areas require improvement.
+The control assessment indicates that CloudServe has several established controls, but four control areas require improvement.
 
 The most significant exposures relate to:
 
@@ -156,9 +156,9 @@ The findings do not, at this stage, require automatic termination of the propose
 
 **Controls Assessed:** 8
 
-**Effective:** 3
+**Effective:** 4
 
-**Partially Effective:** 5
+**Partially Effective:** 4
 
 **Findings:** 4
 
